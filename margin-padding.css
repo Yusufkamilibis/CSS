@@ -1,0 +1,45 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: bisque;
+}
+
+.text {
+    color: white;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+#div1 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 0, 0);
+    color: black;
+    padding: 30px;
+    padding-right: 35px;
+    margin: 20px;
+    border: 20px solid black;
+    
+}
+
+#div2 {
+    width: 300px;
+    height: 200px;
+    background-color:green;
+     color: black;
+     padding-top: 10px 10px 5px 10px;
+     margin-bottom: 16px;
+    
+}
+
+#div3 {
+    width: 500px;
+    height: 200px;
+    background-color: aqua;
+    color: black;
+    border: 5px solid black;
+    margin: 10px 10px 50px 25px;
+}
