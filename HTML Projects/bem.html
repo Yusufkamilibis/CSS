@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEN Naming for CSS</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            background-color: antiquewhite;
+        }
+
+        .container {
+           display: flex;
+           gap: 10px;
+        }
+
+        .profile-card {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .profile-card__img {
+            width: 200px;
+        }
+
+        .profile-card__heading {
+            font-size: 24px;
+            margin: 5px 0 5px 0;
+        }
+
+        .profile-card__job-tittle {
+            font-size: 18px;
+            margin: 5px 0 5px 0;
+        }
+        .profile-card__link-container {
+            margin-top: 50px;
+
+        }
+
+        .profile-card__link {
+            font-size: 16px;
+            color: blueviolet;
+            text-decoration-line: none;
+            padding: 7px;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="profile-card">
+            <img src="../images/pexels-simon-robben-55958-614810.jpg" alt="" class="profile-card__img">
+            <h1 class="profile-card__heading">Yusuf Aydin</h1>
+            <h2 class="profile-card__job-tittle">Web Deweloper</h2>
+            
+            <div class="profile-card_link-container">  
+                <a href="" class="profile-card__link">Email</a>
+                <a href="" class="profile-card_link--github">Github</a> 
+            </div>
+
+        </div>
+
+        <div class="profile-card">
+            <img src="../images/pexels-simon-robben-55958-614810.jpg" alt="" class="profile-card__img">
+            <h1 class="profile-card__heading">Yusuf Aydin</h1>
+            <h2 class="profile-card__job-tittle">Web Deweloper</h2>
+            
+            <div class="profile-card_link-container">  
+                <a href="" class="profile-card__link">Email</a>
+                <a href="" class="profile-card_link--github">Github</a> 
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
